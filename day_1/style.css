@@ -1,0 +1,59 @@
+body{
+  font-family: 'Lato', sans-serif;
+  border-left: 8px solid #2baadf;
+  width: 700px;
+  margin: auto;
+  padding: 50px 0px 50px 50px;
+}
+
+h1{
+  font-size: 40px;
+}
+
+
+article{
+  color:#444;
+  border-bottom:1px solid #444;
+  font-weight: 300;
+}
+
+time{
+  color:#ccc
+}
+
+a{
+  text-decoration: none ;
+}
+
+a:link, a:visited{
+  color: #2baadf;
+}
+
+a:hover, a:active {
+  color:orangered;
+
+}
+
+ul{
+  list-style: none;
+  padding-left: 0;
+
+}
+
+li{
+  display: inline;
+  border-right: 1px solid #444;
+  padding-right: 5px;
+}
+
+li:last-child{
+  border-right: none;
+}
+
+img{
+  width: 70%;
+}
+
+.read-more{
+  text-align: right;
+}

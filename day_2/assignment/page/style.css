@@ -1,0 +1,72 @@
+@font-face {
+  font-family: "Right Strongline";
+  src: url("fonts/RightStrongline-Regular.woff2") format("woff2"),
+    url("fonts/RightStrongline-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+html {
+  /* font-family: 'Lato', sans-serif; */
+  font-family: "Roboto Slab";
+  font-size: 18px;
+}
+
+body {
+  background-color: #fff;
+}
+
+h1,
+h2 {
+  color: #23226c;
+  font-weight: 900;
+}
+
+h1 {
+  font-size: 240%;
+  text-align: center;
+  font-family: "Right Strongline", sans-serif;
+}
+
+h2 {
+  font-size: 180%;
+}
+
+p {
+  color: #555;
+  line-height: 150%;
+  text-align: justify;
+}
+
+a {
+  color: #6290c3;
+  text-decoration: none;
+}
+
+a:hover {
+  color: orangered;
+}
+
+em {
+  background-color: #d2d6ef;
+  font-style: normal;
+}
+
+strong {
+  color: #000;
+}
+
+article {
+  width: 50rem;
+  margin: 0 auto;
+}
+
+section {
+  padding: 0.5rem 2rem;
+}
+
+.intro,
+.conclusion {
+  background-color: #d2d6ef;
+}

@@ -1,0 +1,91 @@
+/* * {
+  box-sizing: border;
+  margin: 0;
+  padding: 0;
+} */
+
+html {
+  font-family: "Trebuchet MS", sans-serif;
+  color: #fff;
+  background-color: #444;
+}
+
+body {
+  /* font-family: "Rubik", Sans-serif;
+  background: #e9ecef;
+  color: #495057; */
+  text-align: center;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-weight: 600;
+}
+
+p {
+  margin: 1rem 1.2rem;
+}
+
+a {
+  color: rgba(255, 245, 253, 0.5);
+}
+
+a:hover {
+  color: #fff;
+}
+
+button {
+  cursor: pointer;
+  border: 1px solid #495057;
+  border-radius: 0.2em;
+  padding: 0.5rem;
+  color: #495057;
+  background-color: #f8f9fa;
+  font-size: 1.2rem;
+  margin-bottom: 1.2rem;
+  transition: all 0.5s;
+}
+
+button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.08);
+}
+
+li {
+  text-align: left;
+  margin: 0.5rem 1.8rem;
+}
+
+.img-london {
+  opacity: 0.5;
+  width: 75%;
+  margin-bottom: 1rem;
+}
+.img-london:hover {
+  opacity: 1;
+}
+
+.top-5__list {
+  margin: 0 auto;
+  width: 40%;
+}
+
+/* .hidden {
+  opacity: 0;
+} */
+
+/* TOGGLE BETWEEN BLUE AND PINK COLOR OF THE "TOP 5 REASONS" HEADER */
+.top-5__header {
+  color: blue;
+}
+
+.top-5__header.top-5__header--colorized {
+  color: pink;
+  font-size: 2rem;
+}
